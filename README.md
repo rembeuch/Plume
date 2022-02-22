@@ -62,7 +62,7 @@ The goal is to create a very basic version of our library view in Plume. Feel fr
 
 #### Task 1
 
-For this, we provide as an input a CSV file with the data to seed your database. First, analyze the content and create the model(s) you need. then update the seed.rb file accordingly.
+For this, we provide as an input a [CSV file](https://github.com/plume-app/challenge-1/blob/main/db/seed.csv) with the data to seed your database. First, analyze the content and create the model(s) you need. Then update the seed.rb file accordingly.
 
 
 #### Task 2
@@ -96,6 +96,11 @@ https://user-images.githubusercontent.com/7847244/155132520-5f823c1d-6ae7-487d-a
 The design of the card is also in the [Figma](https://www.figma.com/file/vsgnaKqwrg7KK5OZGbgLcl/Untitled?node-id=0%3A1).
 
 To do so you will need to generate a remote modal dynamically. This can be achieved now with Hotwire in a much simpler way than it was before. You can take some inspiration from this [nice article](https://www.bearer.com/blog/how-to-build-modals-with-hotwire-turbo-frames-stimulusjs).
+
+
+### Deploy (Optionnal)
+
+Deploy it to Heroku
 
 
 ### Submission
