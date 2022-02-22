@@ -4,7 +4,7 @@ This challenge is built to assess the ability of a candidate to build a feature 
 
 Some of the new features you might discover during this challenge :
 - Rails 7 new assets pipeline
-- Tailwind CSS rather than Bootstrap
+- [Tailwind CSS](https://tailwindcss.com) rather than Bootstrap
 - Hotwire (optional)
 
 ## Requirments
@@ -58,7 +58,7 @@ rails tailwindcss:watch
 
 ## The feature to build
 
-The goal is to create a very basic version of our library view in Plume. 
+The goal is to create a very basic version of our library view in Plume. Feel free to sign up and create a kid to get a live example.
 
 #### Task 1
 
@@ -75,6 +75,9 @@ Build a card for each story. This card has the cover image, the title, and the d
 
 Here is an example of how it should look.
 
+![Capture d’écran 2022-02-22 à 11 21 52 AM](https://user-images.githubusercontent.com/7847244/155131557-20d88995-5e8c-44d5-a848-6285ebef108c.jpg)
+
+
 The design of the card is also available in this [Figma](https://www.figma.com/file/vsgnaKqwrg7KK5OZGbgLcl/Untitled?node-id=0%3A1) 
 
 **Tips for the image:** 
@@ -88,12 +91,16 @@ There is a basic Cloudinary configuration already available in this project, you
 
 For each card when the user clicks on it we would like to display a bigger preview modal. Here is a live example from our app.
 
+https://user-images.githubusercontent.com/7847244/155132520-5f823c1d-6ae7-487d-af8c-b028ab0cd458.mp4
+
+The design of the card is also in the [Figma](https://www.figma.com/file/vsgnaKqwrg7KK5OZGbgLcl/Untitled?node-id=0%3A1).
+
 To do so you will need to generate a remote modal dynamically. This can be achieved now with Hotwire in a much simpler way than it was before. You can take some inspiration from this [nice article](https://www.bearer.com/blog/how-to-build-modals-with-hotwire-turbo-frames-stimulusjs).
 
 
 ### Submission
 
-Once you have completed your project you add the following users to the repo so that we can review it and ping @adrienpoly on slack.
+Once you have completed your project, you can add the following users to the repo so that we can review it and ping @adrienpoly on slack.
 
 - @adrienpoly
 - @lomig
