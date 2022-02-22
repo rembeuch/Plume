@@ -77,6 +77,13 @@ Here is an example of how it should look.
 
 The design of the card is also available in this [Figma](https://www.figma.com/file/vsgnaKqwrg7KK5OZGbgLcl/Untitled?node-id=0%3A1) 
 
+**Tips for the image:** 
+There is a basic Cloudinary configuration already available in this project, you can use the cloudinary helper with the cloudinary key given in the csv file to generate the Image tag
+
+```ruby
+<%= cl_image_tag("production/stories/alice-au-pays-des-merveilles/as_cover/r6v62fvq8bokh6ivb358hia4bsbf") %>
+```
+
 ### Task 4
 
 For each card when the user clicks on it we would like to display a bigger preview modal. Here is a live example from our app.
