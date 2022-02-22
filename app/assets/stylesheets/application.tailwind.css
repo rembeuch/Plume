@@ -1,3 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Alice&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  /* colors */
+  --color-gray-dark: #333333;
+  --color-gray: #666666;
+  --color-gray-light: #9999;
+  --color-gray-lighter: #cccccc;
+  --color-gray-lightest: #f2f2f2;
+  --color-white: #ffffff;
+  --color-dark: #333333;
+  --color-brand: #356771;
+  --color-brand-dark: #203e44;
+  --color-brand-light: #aec2c6;
+  --color-brand-lighter: #ebf0f1;
+  --color-red-dark: #e15353;
+  --color-red: #fa5c5c;
+  --color-red-light: #fed6d6;
+  --color-red-lighter: #fff7f7;
+  --color-orange-dark: #df7319;
+  --color-orange: #fd7e14;
+  --color-orange-light: #fdd6bf;
+  --color-orange-lighter: #fff5ef;
+  --color-green-dark: #28b97b;
+  --color-green: #38cd8b;
+  --color-green-light: #abebd0;
+  --color-green-lighter: #eafaf3;
+  --color-yellow: #f5d944;
+  --color-yellow-light: #fbf0b4;
+  --color-yellow-lighter: #fefbec;
+  --color-blue: #3d79ee;
+  --color-blue-light: #cfdefb;
+  --color-blue-lighter: #f5f8fe;
+  --color-cyan: #71b5bd;
+  --color-cyan-light: #c8f2f7;
+  --color-cyan-lighter: #f2fafb;
+  --color-pink: #f7b2d3;
+  --color-pink-light: #fce0ed;
+  --color-pink-lighter: #fef7fb;
+  --color-purple: #747fbd;
+  --color-purple-light: #d7d8ee;
+  --color-purple-lighter: #f0f2fb;
+  /* fonts */
+  --poppins-font: Poppins;
+  --alice-font: Alice;
+  --opendys-font: "Open Dyslexic";
+  --main-font: var(--poppins-font);
+  --secondary-font: var(--alice-font);
+}
