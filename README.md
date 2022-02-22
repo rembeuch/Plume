@@ -7,11 +7,12 @@ Some of the new features you might discover during this challenge :
 - [Tailwind CSS](https://tailwindcss.com) rather than Bootstrap
 - Hotwire (optional)
 
-## Requirments
+## Requirements
 
 - yarn
 - ruby 3.03
 - bundler
+- Postgresql
 - node
 - foreman (optional)
 
