@@ -1,0 +1,31 @@
+<div>
+
+<% @stories.uniq{|s| s.universe_name }.each do |story| %>
+  <div class="">
+    <h1 class="font-bold text-xl mb-4 mt-5">Dans l'univers "<%= story.universe_name %>"
+    <span class="bg-yellow-500"> <%= "Recommandé" if story.universe_name == 'L\'île mystérieuse'  %> </span>
+    </h1>
+    <div class="bg-white rounded shadow-md grid lg:grid-cols-5 gap-8 mb-4">
+      <% @stories.where(universe_name: story.universe_name).each do |s| %>
+        <%= link_to story_path(s), data: { turbo_frame: 'modal' } do %>
+        <div class="overflow-hidden relative">
+          <div class="">
+            <%= cl_image_tag(s.key, :width=>270, :height=>253, :crop=>"scale") %>
+            <img src="s.key" alt="" class="w-full sm:h-70 ">
+          </div>
+          <div class="text-center m-4 ">
+            <h1 class="font-bold text-xl"><%= s.title %></h1>
+            <p class="text-neutral-300 text-center">
+              <%= s.description.first(50) %>
+            </p>
+          </div>
+          <div class="bg-grey-100 text-secondary-200 rounded-full p-2 absolute right-1 top-24 mt-5 ml-2">
+            <span> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTx19bOhMDVwBVaX6CfPb6r-hUXWBJEvRetw&usqp=CAU" alt="" class="h-12 xl:h-20 rounded-full mt-5"></span>
+          </div>
+        </div>
+        <% end %>
+      <% end %>
+    </div>
+  </div>
+<% end %>
+</div>
