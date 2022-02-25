@@ -1,0 +1,11 @@
+{
+  "apps": [
+    {
+      "app_id": "app_c8c0c3c5-c577-4173-9ce8-d0700a51505e",
+      "org_id": "user_5ddf9c9b-0668-4a95-a294-4f00772e6c2c",
+      "deploy_url": "https://push-n2-par-clevercloud-customers.services.clever-cloud.com/app_c8c0c3c5-c577-4173-9ce8-d0700a51505e.git",
+      "name": "Plume",
+      "alias": "Plume"
+    }
+  ]
+}
